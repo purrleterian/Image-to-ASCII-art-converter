@@ -1,10 +1,14 @@
-from PIL import Image
-from ImageToAscii import ImageToAscii
-import argparse
+try:
+    from PIL import Image
+    from ImageToAscii import ImageToAscii
+    import argparse
+
+except ModuleNotFoundError:
+    print("Sorry, something went wrong while importing dependencies.\nPlease make sure that all dependencies are propperly installed.")
 
 
 def main():
-    descString = "Converts an image into a series of ascii characters"
+    descString = "Converts an image into a series of ascii characters."
 
     parser = argparse.ArgumentParser(description=descString)
 

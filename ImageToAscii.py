@@ -1,5 +1,10 @@
-from PIL import Image
-import tqdm
+# Try to import dependencies
+try:
+    from PIL import Image
+    import tqdm
+
+except ModuleNotFoundError:
+    print("Sorry, something went wrong while importing dependencies.\nPlease make sure that all dependencies are propperly installed.")
 
 
 class ImageToAscii:
