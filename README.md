@@ -2,15 +2,19 @@
 
 **2ASCIIpy** is a python script made by _yours truly_ that converts an image of any type (.png, .jpg, .gif, etc) to an ASCII representation of that image. It works with both grayscale, and colored images (Although, the output will allways be black and white. Duh.).
 
+---
+
 ## How to use **2ASCIIpy**
 
 To use **2ASCIIpy**, you will need to use command line arguments, as follow:
 
-'''
+```
 
 python main.py --file <PATH TO THE IMAGE> --scale <SCALE TO WHICH RESIZE THE IMAGE BY> --output <NAME/PATH TO THE OUTPUT FILE>
 
-'''
+```
+
+---
 
 ## Yeah, but how does it work?
 
@@ -22,8 +26,12 @@ python main.py --file <PATH TO THE IMAGE> --scale <SCALE TO WHICH RESIZE THE IMA
 
 - Them it uses that number to index the characters list, and picks a character for the output.
 
+---
+
 ## Support
 
 You can support this project by reporting bugs 🐞, suggesting fixes 🔧, and ways to optimize the code 💻. Feel free to use the code in your projects, as long as propper credit is given.
 
 And of course, if you liked this project, please consider giving it a star ⭐.
+
+---
