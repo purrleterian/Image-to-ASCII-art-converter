@@ -8,7 +8,7 @@ except ModuleNotFoundError:
 
 
 class ImageToAscii:
-    def __init__(self, image, scale, output_file_path, print_to_console=False):
+    def __init__(self, image, scale, output_file_path, print_to_console="false"):
         self.scale = scale
         self.output_file_path = output_file_path
         self.print_to_console = print_to_console
@@ -63,7 +63,7 @@ class ImageToAscii:
                     img_size = 0
 
         self.write_to_file(result)
-        if self.print_to_console:
+        if self.print_to_console.lower() == "true":
             print()
             print(result)
 

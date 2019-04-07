@@ -12,7 +12,16 @@ To use **2ASCIIpy**, you will need to use command line arguments, as follow:
 
 python main.py --file <PATH TO THE IMAGE> --scale <SCALE TO WHICH RESIZE THE IMAGE BY> --output <NAME/PATH TO THE OUTPUT FILE>
 
+
 ```
+
+- --file = The path to the desired image
+
+- --scale = the scale to which divide the width and the height for when resizing
+
+- --output = Name and path to the text file containing the output of the program
+
+- --print (true / false) = Optional parameter to decide wether to print the output to the console or not
 
 ---
 
