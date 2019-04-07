@@ -119,7 +119,9 @@ Example:
 
 ## Yeah, but how does it work?
 
-- the script first creates a list of characters to represent the brightness of the pixel, going from darkest to brightest ( ['@', '#', '%', '$', '£', '*', '+', ':', ';', ',', '.'] ).
+- Resizes your image, by dividing the width and the height by the given scale
+
+- The script first creates a list of characters to represent the brightness of the pixel, going from darkest to brightest ( ['@', '#', '%', '$', '£', '*', '+', ':', ';', ',', '.'] ).
 
 - Converts the image to grayscale, so all pixels turn into a number from 0 to 255.
 
@@ -129,9 +131,15 @@ Example:
 
 ---
 
+## Future plans
+
+- Add a optional GUI
+
+---
+
 ## Support
 
-You can support this project by reporting bugs 🐞, suggesting fixes 🔧, and ways to optimize the code 💻. Feel free to use the code in your projects, as long as propper credit is given.
+You can support this project by reporting bugs 🐞, suggesting fixes 🔧 and new features, and ways to optimize the code 💻. Feel free to use the code in your projects, as long as propper credit is given.
 
 And of course, if you liked this project, please consider giving it a star ⭐.
 
