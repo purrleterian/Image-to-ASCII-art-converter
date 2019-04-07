@@ -133,13 +133,13 @@ Example:
 
 ## Future plans
 
-- Add a optional GUI
+- Add an optional GUI
 
 ---
 
 ## Support
 
-You can support this project by reporting bugs 🐞, suggesting fixes 🔧 and new features, and ways to optimize the code 💻. Feel free to use the code in your projects, as long as propper credit is given.
+You can support this project by reporting bugs 🐞, suggesting fixes 🔧 and new features ⚙, and ways to optimize the code 💻. Feel free to use the code in your projects, as long as propper credit is given.
 
 And of course, if you liked this project, please consider giving it a star ⭐.
 
