@@ -63,9 +63,10 @@ class ImageToAscii:
                     img_size = 0
 
         self.write_to_file(result)
-        if self.print_to_console.lower() == "true":
-            print()
-            print(result)
+        if self.print_to_console:
+            if self.print_to_console.lower() == "true":
+                print()
+                print(result)
 
     def write_to_file(self, content):
         with open(self.output_file_path, "a") as file:
