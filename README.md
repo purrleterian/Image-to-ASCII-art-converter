@@ -12,9 +12,9 @@ To use **2ASCIIpy**, you will need to use command line arguments, as follow:
 
 python main.py --file <PATH TO THE IMAGE> --scale <SCALE TO WHICH RESIZE THE IMAGE BY> --output <NAME/PATH TO THE OUTPUT FILE>
 
-![Example image](https://github.com/purrleterian/Image-to-ASCII-art-converter/blob/master/github_stuff/demo.png)
-
 ```
+
+![Example image](https://github.com/purrleterian/Image-to-ASCII-art-converter/blob/master/github_stuff/demo.png)
 
 - --file = The path to the desired image
 
