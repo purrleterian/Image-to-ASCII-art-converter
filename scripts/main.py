@@ -1,6 +1,8 @@
 try:
     from PIL import Image
     from ImageToAscii import ImageToAscii
+
+    # For the command line arguments
     import argparse
 
 except ModuleNotFoundError:
@@ -20,12 +22,13 @@ def main():
                         required=False, help="The name/path of the output file + .txt")
     parser.add_argument("--print", dest="printToConsole", required=False,
                         help="Decides if it should print the output to the console or not. False by default")
+    parser.add_argument("--reverse", dest="reverse", required=False,
+                        help="Reverses the characters in the output")
 
     args = parser.parse_args()
 
     ita = ImageToAscii(args.imgPath, int(args.scale),
-                       args.outputFile, args.printToConsole)
-
+                       args.outputFile, args.printToConsole, args.reverse)
 
 if __name__ == "__main__":
     main()
